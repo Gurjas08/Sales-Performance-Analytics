@@ -30,3 +30,24 @@ You can install everything globally (no virtual environment needed):
 ```bash
 python -m pip install --upgrade pip
 pip install --user pandas streamlit pyarrow
+```
+
+## Step 2 — Run the ETL script
+
+This script:
+
+Reads the raw CSV from data/raw/
+
+Cleans and renames columns (handles Price → UnitPrice, Customer ID → CustomerID)
+
+Computes Revenue = Quantity × UnitPrice
+
+Adds derived columns like Month, Year, OrderDate
+
+Writes a clean dataset to data/processed/sales_clean.csv
+
+Run the ETL:
+
+```bash
+python src/etl.py
+```
