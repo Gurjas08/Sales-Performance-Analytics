@@ -92,6 +92,10 @@ Visuals:
 - End-to-end visualization and analytics
 - A clear example of transforming large-scale data into actionable insights
 
+🖼️ Documentation:
+- The `docs/` folder contains **screenshots of the Streamlit dashboard** that show how the KPIs, filters, and charts look after running the project.
+- These visuals provide a quick overview of the dashboard results without needing to run the app locally.
+
 🪄 Next Steps (optional ideas):
 - Add a metric showing revenue impact of returns
 - Create a “Category” column from product descriptions
